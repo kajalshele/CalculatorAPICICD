@@ -4,26 +4,26 @@
 	
    <test name="AdditionTestCases">
 		<classes>
-			<class name="QualityKioskTraining.Calculator.AdditionTestCases"/>
+			<class name="QualityKioskTraining.CalculatorAPICICDDemo.AdditionTestCases"/>
 		</classes>
 	</test>
 
 	<test name="SubtractionTestCases">
 		<classes>
-			<class name="QualityKioskTraining.Calculator.SubtractionTestCases"/>
+			<class name="QualityKioskTraining.CalculatorAPICICDDemo.SubtractionTestCases"/>
 		</classes>
 	</test>
 	
 	<test name="MultiplicationTestCases">
 		<classes>
-			<class name="QualityKioskTraining.Calculator.TestMultiplication"/>
+			<class name="QualityKioskTraining.CalculatorAPICICDDemo.TestMultiplication"/>
 		</classes>
 	
 	</test>
 	
 	<test name="DivisionTestCases">
 		<classes>
-			<class name="QualityKioskTraining.Calculator.TestDivision"/>
+			<class name="QualityKioskTraining.CalculatorAPICICDDemo.TestDivision"/>
 		</classes>
 	</test>
 	</parameter>
