@@ -1,0 +1,30 @@
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd" >
+<suite name="CalculatorAPITestCases">
+<parameter name="RequestID" value="TestReport">
+	
+   <test name="AdditionTestCases">
+		<classes>
+			<class name="QualityKioskTraining.Calculator.AdditionTestCases"/>
+		</classes>
+	</test>
+
+	<test name="SubtractionTestCases">
+		<classes>
+			<class name="QualityKioskTraining.Calculator.SubtractionTestCases"/>
+		</classes>
+	</test>
+	
+	<test name="MultiplicationTestCases">
+		<classes>
+			<class name="QualityKioskTraining.Calculator.TestMultiplication"/>
+		</classes>
+	
+	</test>
+	
+	<test name="DivisionTestCases">
+		<classes>
+			<class name="QualityKioskTraining.Calculator.TestDivision"/>
+		</classes>
+	</test>
+	</parameter>
+</suite>
